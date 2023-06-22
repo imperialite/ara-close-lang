@@ -24,6 +24,20 @@ The dataset contribution of this study is a compilation of short fictional stori
 
 ### Code
 
-### Implementation
+
+
+
+### References
+If you use any of the materials in this repository, including the dataset or the code, please add the following citations to your paper:
+```
+Imperial, J. M., Roxas, R. E., Campos, E. M., Oandasan, J., Caraballo, R., Sabdani, F. W., & Almaroi, A. R. (2019). Developing a machine learning-based grade level classifier for Filipino children’s literature. In 2019 International Conference on Asian Language Processing (IALP) (pp. 413-418). IEEE.
+
+Imperial, J. M., & Ong, E. (2020). Exploring hybrid linguistic feature sets to measure filipino text readability. In 2020 International Conference on Asian Language Processing (IALP) (pp. 175-180). IEEE.
+
+Imperial, J. M., Reyes, L. L. A., Ibanez, M. A., Sapinit, R., & Hussien, M. (2022, July). A Baseline Readability Model for Cebuano. In Proceedings of the 17th Workshop on Innovative Use of NLP for Building Educational Applications (BEA 2022) (pp. 27-32).
+
+Imperial, J. M., & Kochmar, E. (2023). Automatic Readability Assessment for Closely Related Languages. arXiv preprint arXiv:2305.13478.
+```
+
 
 Currently this before ACL 2023.
