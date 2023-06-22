@@ -46,3 +46,11 @@ Imperial, J. M., & Kochmar, E. (2023). Automatic Readability Assessment for Clos
 
 
 Currently this before ACL 2023.
+
+### Contact
+If you need any help reproducing the results, please don't hesitate to contact me below:
+
+**Joseph Marvin Imperial** <br/>
+jmri20@bath.ac.uk <br/>
+www.josephimperial.com 
+
