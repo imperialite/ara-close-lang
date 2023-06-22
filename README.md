@@ -23,8 +23,13 @@ The dataset contribution of this study is a compilation of short fictional stori
 |                 | Level 3 |     82    |    3794    |  6115 |
 
 ### Code
+#### Mutual Intelligibility via N-Gram Overlap and Genetic Distance
 
 
+#### Linguistic Feature Extraction
+
+
+#### Model Training with WEKA
 
 
 ### References
@@ -34,7 +39,7 @@ Imperial, J. M., Roxas, R. E., Campos, E. M., Oandasan, J., Caraballo, R., Sabda
 
 Imperial, J. M., & Ong, E. (2020). Exploring hybrid linguistic feature sets to measure filipino text readability. In 2020 International Conference on Asian Language Processing (IALP) (pp. 175-180). IEEE.
 
-Imperial, J. M., Reyes, L. L. A., Ibanez, M. A., Sapinit, R., & Hussien, M. (2022, July). A Baseline Readability Model for Cebuano. In Proceedings of the 17th Workshop on Innovative Use of NLP for Building Educational Applications (BEA 2022) (pp. 27-32).
+Imperial, J. M., Reyes, L. L. A., Ibanez, M. A., Sapinit, R., & Hussien, M. (2022). A Baseline Readability Model for Cebuano. In Proceedings of the 17th Workshop on Innovative Use of NLP for Building Educational Applications (BEA 2022) (pp. 27-32).
 
 Imperial, J. M., & Kochmar, E. (2023). Automatic Readability Assessment for Closely Related Languages. arXiv preprint arXiv:2305.13478.
 ```
