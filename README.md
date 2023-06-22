@@ -31,6 +31,7 @@ The dataset contribution of this study is a compilation of short fictional stori
 
 #### Model Training with WEKA
 
+Currently updating this before ACL 2023.
 
 ### References
 If you use any of the materials in this repository, including the dataset or the code, please add the following citations to your paper:
@@ -43,9 +44,6 @@ Imperial, J. M., Reyes, L. L. A., Ibanez, M. A., Sapinit, R., & Hussien, M. (202
 
 Imperial, J. M., & Kochmar, E. (2023). Automatic Readability Assessment for Closely Related Languages. arXiv preprint arXiv:2305.13478.
 ```
-
-
-Currently this before ACL 2023.
 
 ### Contact
 If you need any help reproducing the results, please don't hesitate to contact me below:
