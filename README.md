@@ -22,6 +22,8 @@ The dataset contribution of this study is a compilation of short fictional stori
 |                 | Level 2 |    100    |    2803    |  4003 |
 |                 | Level 3 |     82    |    3794    |  6115 |
 
+All used datasets are inside the `data` folder categorized by language. The formatted .txt and .csv files as the extracted features from the code are included in each language except in Tagalog, where the raw Adarna House data is not added due to copyright permissions. The results can still be reproduced using the extracted feature file.
+
 ### Code
 #### Mutual Intelligibility via N-Gram Overlap and Genetic Distance
 The code for calculating the two measures of mutual intelligibility, `n-gram overlap` and `genetic distance` are inside the data/mutual_intelligibility/ngrams/`ngram_overlap.ipynb` and data/mutual_intelligibility/genetic_distance/`exact_consonant_match.py` respectively. For `n-gram overlap` you would need two big comparable corpora for Language A and Language B to compare their top overlapping bigrams and trigrams. In the study, we simply used the aggregated collected storybooks per language. For `genetic distance`, you would need two lists of the top common words used for each language. These can easily be extracted in vocabulary websites or derived from large corpora as well.
