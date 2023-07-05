@@ -23,11 +23,12 @@ The dataset contribution of this study is a compilation of short fictional stori
 |                 | Level 3 |     82    |    3794    |  6115 |
 
 ### Code
+
 #### Mutual Intelligibility via N-Gram Overlap and Genetic Distance
 
 
 #### Linguistic Feature Extraction
-
+Inside the `code` folder there are three parser files (`syll_parse.py`, `trad_parser.py`, `CLGSNGO_parser.py`), three function files (`SYLL.py`, `TRAD.py`, `CLGSNGO.py`), and one for extracting the embeddings from a multilingual BERT model (`extract_embeddings.py`). 
 
 #### Model Training with WEKA
 
