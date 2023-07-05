@@ -24,14 +24,13 @@ The dataset contribution of this study is a compilation of short fictional stori
 
 ### Code
 #### Mutual Intelligibility via N-Gram Overlap and Genetic Distance
-The code
+The code for calculating the two measures of mutual intelligibility, `n-gram overlap` and `genetic distance` are inside the data/mutual_intelligibility/ngrams/`ngram_overlap.ipynb` and data/mutual_intelligibility/genetic_distance/`exact_consonant_match.py` respectively. For `n-gram overlap` you would need two big comparable corpora for Language A and Language B to compare their top overlapping bigrams and trigrams. In the study, we simply used the aggregated collected storybooks per language. For `genetic distance`, you would need two lists of the top common words used for each language. These can easily be extracted in vocabulary websites or derived from large corpora as well.
 
 #### Linguistic Feature Extraction
-Inside the `code` folder there are three parser files (`syll_parse.py`, `trad_parser.py`, `CLGSNGO_parser.py`), three function files (`SYLL.py`, `TRAD.py`, `CLGSNGO.py`), and one for extracting the embeddings from a multilingual BERT model (`extract_embeddings.py`). The function files contain the functions for extracting the linguistic features, and these are called in the parser files where you input your .csv files to iterate row-by-row. Each parser file will output a .csv file containing the extracted features which you can combine concatenate together for experimentation (see examples such as `tag_features.csv` in the data\tagalog\ folder.
+Inside the `code` folder there are three parser files (`syll_parse.py`, `trad_parser.py`, `CLGSNGO_parser.py`), three function files (`SYLL.py`, `TRAD.py`, `CLGSNGO.py`), and one for extracting the embeddings from a multilingual BERT model (`extract_embeddings.py`). The function files contain the functions for extracting the linguistic features, and these are called in the parser files where you input your .csv files to iterate row-by-row. Each parser file will output a .csv file containing the extracted features, which you can combine concatenate together for experimentation (see examples such as `tag_features.csv` in the data/tagalog/ folder.
 
 #### Model Training with WEKA
-
-Currently updating this before ACL 2023.
+All model training is done with WEKA 3.7 using the default settings for Random Forest. You can double-check your hyperparameter values with ours, as shown in the Appendix of the paper.
 
 ### References
 If you use any of the materials in this repository, including the dataset or the code, please add the following citations to your paper:
